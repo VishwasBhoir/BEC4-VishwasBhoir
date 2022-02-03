@@ -16,8 +16,10 @@ const div = (num1, num2) => {
 
 let num1 = 30;
 let num2 = 10;
+let str = '15';
 
 add(num1, num2);
 sub(num1, num2);
 mul(num1, num2);
 div(num1, num2);
+console.log(typeof (1 + [""]));
